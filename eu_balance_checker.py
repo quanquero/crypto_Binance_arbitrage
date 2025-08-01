@@ -8,8 +8,8 @@ import json
 class BalanceCheckerEU:
     def __init__(self):
         # EU API ключи
-        self.API_KEY = "650178fe-dc79-4e01-8607-9a388ab387f2"
-        self.API_SECRET = "uGybuFFiYIv2PFgSdr+/12ua+d4Je/xefW9qb2S9AkqvZEVw23uosY6bz+s+vG0yXfC1z8iSD99MibBAXUzgPQ=="
+        self.API_KEY = ""
+        self.API_SECRET = "=="
         self.API_URL = "https://api.coinbase.com"
 
     def sign_request(self, method, path, body=""):
