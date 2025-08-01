@@ -11,12 +11,8 @@ import socket
 class CoinbasePingChecker:
     def __init__(self):
         # USA API ключи (формат с organizations/...)
-        self.KEY_NAME = "organizations/1bc40d04-e00e-4d3e-b924-98790b859247/apiKeys/5f083ee2-8ccb-4d24-9d0f-93328067b742"
-        self.KEY_SECRET = """-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIISxVBt9RUMIlWLMZbgnD44FOw7XKz3sLYhMW1NdyKhyoAoGCCqGSM49
-AwEHoUQDQgAENiL/6KnLS+crcJPmSBT4wefJ4PnxqgXyW0r9Ea4BK8QBrzxVxhCW
-LlUftqEuK3eQtX/p5xHka64/THRf2C4akA==
------END EC PRIVATE KEY-----"""
+        self.KEY_NAME = ""
+        self.KEY_SECRET = """"""
         self.API_URL = "https://api.coinbase.com"
         self.PUBLIC_API_URL = "https://api.exchange.coinbase.com"
         
