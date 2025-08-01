@@ -55,21 +55,15 @@ def buy_for_both_accounts(product_id, amount_usd):
     """Покупка для обоих аккаунтов"""
     # Первый аккаунт
     trader1 = CoinbaseTrader(
-        api_key="organizations/1bc40d04-e00e-4d3e-b924-98790b859247/apiKeys/5f083ee2-8ccb-4d24-9d0f-93328067b742",
-        api_secret="""-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIISxVBt9RUMIlWLMZbgnD44FOw7XKz3sLYhMW1NdyKhyoAoGCCqGSM49
-AwEHoUQDQgAENiL/6KnLS+crcJPmSBT4wefJ4PnxqgXyW0r9Ea4BK8QBrzxVxhCW
-LlUftqEuK3eQtX/p5xHka64/THRf2C4akA==
+        api_key="o2",
+        api_secret="""==
 -----END EC PRIVATE KEY-----"""
     )
     
     # Второй аккаунт
     trader2 = CoinbaseTrader(
-        api_key="organizations/e7f601fd-e14d-413a-a9c1-e2825ba25090/apiKeys/8b094a11-189e-415b-a907-77ce15e38e7a",
-        api_secret="""-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIIfKg1kVKMJq86BX7/ddYkt2Ddyo1kIwtCF2vq0Ap4x8oAoGCCqGSM49
-AwEHoUQDQgAEsfnUR5lGP1lE1Vi73l7Z5uNp2WGPNDrrJgAsJIzeQUJJZRMwUt4S
-DuXqvfsZVojLNCyfgY/+12GJ7x8AE1gskg==
+        api_key="",
+        api_secret=""g==
 -----END EC PRIVATE KEY-----"""
     )
     
